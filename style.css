@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar-expand-sm .navbar-collapse{
+    justify-content: flex-end !important;
+}
+#a{
+    text-decoration: none !important;
+}
+html{
+    size: 62.5%;
+}
+nav{
+    font-size: 1.4rem;   
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Roboto', sans-serif;
+}
+.body{
+    font-family: 'Noto Sans', sans-serif;  
+}
+.p-2{
+    max-width: 90rem;
+}
+/* Mobile first queries */
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
+.dropdown-menu.show{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+}
+.cover{
+    color: white;
+    height: 40.5rem;
+    background-image: url("./img/rsz_123550328_1546172802126730_7434193819930149430_o.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.562);
+    background-blend-mode:darken;
+}
+
+.dropdown-menu{
+    right: 0;
+}
+
+.active{
+    font-size: 1.5rem;
+}
+
+.none{
+    border-color: #f8f9fa!important;
+}
+
+.dropdown-item{
+    padding-inline: 0 !important;
+}
+
+.cover-small{
+    height: 200px;
+    background-blend-mode: normal;
+}
+
+.card{
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.08) ;
+}
+
+.card-title{
+    min-height: 3rem;
+    max-height: none;
+}
+
+.card-text{
+    min-height: 10rem;
+    max-height: none;
+}
+
+.mr-4{
+    margin-right: 1rem !important;
+}
+
+.img{
+    width: 20rem;
+}
+
+.pedrito{
+    font-size: 1.5rem;
+    margin-top: 15rem;
+    padding-left: 15rem;
+    width: 545px !important;
+    padding-inline: 0 !important;
+    margin-inline: 0 !important;
+}
+
+.form{
+    margin-top: 1.5rem;
+    margin-inline: 7rem;
+    min-width: 15rem;
+}
+
+.d-flex{
+    align-items: flex-end;
+    align-items: center;
+}
+
+.container_tira{
+    display:flex ;
+}
+
+.container_tira .card{
+    width: 300px;
+    flex-shrink: 0;
+    margin-right: 1rem;
+}
+
+.tira_productos{
+    overflow-x:scroll ;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.responsive-iframe{
+    position: relative;
+    /* padding-top:56.25% ; */
+}
+
+.responsive-iframe iframe{
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav{
+    margin-right: 1.8rem !important;
+}
+
+.navbar{
+    padding-inline: 1.8rem;
+}
+
+.miralo{
+    text-decoration: none;
+    color: #0dcaf0;
+}
